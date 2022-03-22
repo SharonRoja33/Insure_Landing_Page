@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+/*Mobile: 375px*/
+body{
+    background-color: white;
+    font-size: 16px;
+}
+.Nav{
+    padding:2% 1%;
+}
+.nav__bg{
+    background-color: hsl(256, 26%, 20%);
+    text-align: center;
+    padding-top: 10%;
+    height: 500px; 
+    position: relative;   
+}
+.nav__logo{
+    padding-left: 10%;
+}
+.Nav__item{
+    color: hsl(0, 0%, 98%);
+    font-size: 4vw;
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+.Nav__item:hover{
+    color:  hsl(216, 30%, 68%);
+    cursor: pointer;
+}
+.mobile__nav{
+    position: absolute;
+    width: 92%;
+    margin-top: -210px;
+}
+.nav__view__plans__btn{
+    border: 1px solid hsl(0, 0%, 98%);;
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);;
+    padding: 6px 50px;
+    font-size: 5vm;
+    font-weight: bold;
+}
+.nav__view__plans__btn:hover{
+    background-color: white;
+    color:hsl(256, 26%, 20%);
+}
+.hero__container{
+    margin: 0;
+    width: 100%;
+    height: 850px;
+    background-color:hsl(256, 26%, 20%);
+    
+}
+.hero__img__container{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.hero__img{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+.hero__description{
+    margin: 20% 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5;
+    background-color:hsl(256, 26%, 20%);
+}
+h1{
+    color: white;
+    font-family: DM Serif Display;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+p{
+    color: hsl(0, 0%, 98%);
+}
+.view__plans__btn{
+    border: 1px solid hsl(0, 0%, 98%);
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+    margin: 0% 24%;
+    padding: 2% 8%;
+    font-size: 4vw;
+    font-weight: bold;
+}
+.view__plans__btn:hover{
+    background-color: white;
+    color:hsl(256, 26%, 20%);
+}
+.bg__left__pattern{
+    position: sticky;
+    margin-top: -730px;
+    margin-left: -30px;
+    width: 60%;
+    height: 150px;
+}
+.bg__right__pattern{
+    position: sticky;
+    margin-top: -160px;
+    margin-left: 280px;
+    width: 25%;
+    height: 250px;
+}
+.main__container{
+    margin: 0% 5%;
+}
+.heading{
+    font-family: karla;
+    color: hsl(256, 26%, 20%);
+    font-size: 12vw;
+    font-weight: bolder;
+    text-align: center;
+}
+/*.container{
+    margin: 5% 10%;
+    
+}*/
+.row{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 5;
+    align-items: center;
+    text-align: center;
+}
+.img{
+    width: 30%;
+    height: auto;
+}
+.img__desc{
+    font-family:serif;
+    color: hsl(270, 9%, 17%);
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+.more__info{
+    color: hsl(273, 4%, 51%);
+}
+.find__out{
+    width: 80%;
+    height: 300px;
+    margin: 30% 10%;
+    background-color: hsl(256, 26%, 20%);
+    display: flex;
+    flex-direction: column;
+    gap: 5;
+    align-items: center;
+    text-align: center;
+    padding: 15% 5%;
+}
+.find__out__desc{
+    font-family: karla;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+.how__we__work__btn{
+    border: 1px solid hsl(0, 0%, 98%);
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+    padding: 4px 28px;
+    font-size: 14px;
+    margin-top: 5%;
+}
+.how__we__work__btn:hover{
+    background-color: white;
+    color:hsl(256, 26%, 20%);
+}
+.how__we__work__pattern{
+    margin-top: -240px;
+    margin-left: 150px;
+    height: 270px;
+}
+.footer__start{
+    background-color: hsl(0, 0%, 98%);
+    width: 100%;
+    height: 800px;
+}
+.footer__logo__container{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30% 5% 5% 5%;
+}
+.footer__social__logos{
+    display: flex;
+    margin-top: 10%;
+}
+.social__logo{
+    margin-right: 12px;
+}
+.footer__pattern{
+    margin-top: -240px;
+}
+.footer__desc__container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer__desc__heading{
+    color: hsl(273, 4%, 51%);
+    font-weight: bolder;
+    font-size: 3vw; 
+    margin-top: 5%;
+}
+.footer__desc{
+    display: flex; 
+    flex-direction: column;
+    margin-top: 3%;
+    gap: 3;
+}
+.info{
+    color: hsl(256, 26%, 20%);
+    font-size: 0.6rem; 
+    font-weight: bolder;
+}
+
+@media (min-width:992px){
+    .hero__container{
+        position: relative;
+        width: 100%;
+        height: 500px;
+        background-color:hsl(256, 26%, 20%);
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+    .hero__img__container{
+        position: relative;
+        width: 40%;
+        height: 500px;
+        margin: 5% 10% 0% 0%;
+    }
+    .hero__img{
+        position: absolute;
+        width: 100%;
+        height: 500px;
+    }
+    .hero__description{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        gap: 5;
+        margin: 10% 2% 0% 10%;
+        background-color:hsl(256, 26%, 20%);
+    }
+     button {
+        width: 20%;
+    }
+    h1{
+        color: white;
+        font-family: DM Serif Display;
+        font-weight: bold;
+        font-size: 4vw;
+        
+    }
+    p{
+        color: hsl(0, 0%, 98%);
+        font-weight: 1vw;
+    }
+    .view__plans__btn{
+        border: 1px solid hsl(0, 0%, 98%);
+        background-color: hsl(256, 26%, 20%);
+        color: hsl(0, 0%, 98%);
+        padding: 4px 8px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .view__plans__btn:hover{
+        background-color: white;
+        color:hsl(256, 26%, 20%);
+    }
+    .bg__left__pattern{
+        position: sticky;
+        margin-top: 100%;
+        margin-left: 0%;
+        height: 400px;
+    }
+    .bg__right__pattern{
+        position: sticky;
+        float: right;
+        margin: -600px 0px 0px 50px;
+        
+    }
+    
+}
+
+    
+
+    
+   

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- CSS only -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+  crossorigin="anonymous" /> 
+
+
+  <title> Insure Landing Page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  <link rel="stylesheet"; href="style.css" />
+
+</head>
+<body>
+ 
+ <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top Nav" >
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#"><img src="./images/logo.svg" class="nav__logo"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <div class="nav__bg">
+        <ul class="navbar-nav ms-auto mb-2  nav-items  ">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="#"><span class="Nav__item">How we work</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="Nav__item">Blog</span></a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="Nav__item">Account</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><button class="nav__view__plans__btn">VIEW PLANS</button></a>
+          </li>
+          </ul>
+        </div>
+          <div><img src="./images/bg-pattern-mobile-nav.svg" alt="mobile_nav" class="mobile__nav"></div>
+        </div>
+     </div>
+  </nav> 
+
+
+  <div class="hero__container">
+    <div class="hero__img__container d-none d-sm-block d-md-none" >
+        <img src="./images/image-intro-mobile.jpg" alt="people" class="hero__img"/>
+    </div>
+    <div class="hero__img__container d-sm-none d-md-block" >
+      <img src="./images/image-intro-desktop.jpg" alt="people" class="hero__img"/>
+  </div>
+    <div class="hero__description">
+      <hr class="d-none d-sm-block d-md-none" style="width: 20%; color: hsl(0, 0%, 98%); margin:-25px 0px 30px 0px;">
+      <h1>Humanizing<br> your insurance.</h1>
+     <p> Get your life insurance coverage easier and faster. We blend our expertise 
+        and technology to help you find the plan that’s right for you. Ensure you 
+        and your loved ones are protected.</p>
+      <button class="view__plans__btn ">VIEW PLANS</button>
+    </div>
+    <div class="d-sm-none d-md-block">
+      <div >
+        <img src="./images/bg-pattern-intro-left-mobile.svg" alt="bgleftpattern" class="bg__left__pattern">
+      </div>
+      <div>
+        <img src="./images/bg-pattern-intro-right-mobile.svg" alt="bgrightpattern" class="bg__right__pattern">
+      </div>
+    </div>
+    <!-- <div class="d-sm-none d-md-block">
+      <div >
+        <img src="./images/bg-pattern-intro-left-desktop.svg" alt="leftpattern" class="bg__left__pattern">
+      </div>
+      <div>
+        <img src="./images/bg-pattern-intro-right-desktop.svg" alt="rightpattern" class="bg__right__pattern">
+      </div>
+  </div> -->
+  </div> 
+
+  <hr style="width: 40%; margin:35% 30% 10% 30%; color: hsl(256, 26%, 20%);">
+
+  <div class="main__container">
+    <p class="heading">We’re different</p>
+    <div class="container">
+      <div class="col">
+        <div class="row">
+          <img src="./images/icon-snappy-process.svg" alt="snappy_process" class="img">
+          <p class="img__desc"> Snappy Process</p>
+          <p class="more__info"> Our application process can be completed in minutes, not hours. Don’t get 
+            stuck filling in tedious forms.</p>
+        </div>
+       
+        <div class="row">
+          <img src="./images/icon-affordable-prices.svg" alt="snappy_process" class="img">
+          <p class="img__desc"> Affordable Prices</p>
+          <p class="more__info"> We don’t want you worrying about high monthly costs. Our prices may be low, 
+            but we still offer the best coverage possible.
+          </p>
+        </div>
+
+        <div class="row">
+          <img src="./images/icon-snappy-process.svg" alt="snappy_process" class="img">
+          <p class="img__desc"> People First</p>
+          <p class="more__info">  Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+            sure you’re covered when you need it.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="find__out">
+    <p class="find__out__desc"> Find out more about how we work    </p>
+    <button class="how__we__work__btn">HOW WE WORK</button>
+    <div>
+      <img src="./images/bg-pattern-how-we-work-mobile.svg" alt="how_we_work" class="how__we__work__pattern">
+    </div>
+  </div>
+
+<div class="footer__start">
+    <div class="footer__logo__container">
+     <div class="footer__logo">
+        <img src="./images/logo.svg" alt="Insure">
+     </div>
+     <div class="footer__social__logos">
+      <img src="./images/icon-facebook.svg" alt="facebook" class="social__logo">
+      <img src="./images/icon-twitter.svg" alt="twitter" class="social__logo">
+      <img src="./images/icon-pinterest.svg" alt="pinterest" class="social__logo">
+      <img src="./images/icon-instagram.svg" alt="instagram">
+    </div>
+    <div>
+      <img src="./images/bg-pattern-footer-mobile.svg" alt="footer_pattern" class="footer__pattern">
+    </div>
+  </div>
+
+  <hr style="width: 80%; margin: 10% 10%; color: hsl(273, 4%, 51%);">
+
+  <div class="footer__end">
+  <div class="footer__desc__container">
+    <p class="footer__desc__heading">OUR COMPANY</p>
+    <div class="footer__desc">
+      <p class="info">HOW WE WORK</p>
+      <p class="info">WHY INSURE?</p>
+      <p class="info">VIEW PLANS</p>
+      <p class="info"> REVIEWS</p>
+    </div>
+  </div>
+
+  <div class="footer__desc__container">
+    <p class="footer__desc__heading"> HELP ME</p>
+    <div class="footer__desc">
+      <p class="info">FAQ</p>
+      <p class="info">TERMS OF USE</p>
+      <p class="info">PRIVACY POLICY</p>
+      <p class="info"> COOKIES</p>
+    </div>
+  </div>
+  
+ <div class="footer__desc__container">
+    <p class="footer__desc__heading">CONTACT</p>
+    <div class="footer__desc">
+      <p class="info"> SALES</p>
+      <p class="info"> SUPPORT</p>
+      <p class="info">LIVE CHAT</p>
+    </div>
+  </div>
+  
+<div class="footer__desc__container">
+    <p class="footer__desc__heading">OTHERS</p>
+    <div class="footer__desc">
+      <p class="info">CAREERS</p>
+      <p class="info">PRESS</p>
+      <p class="info">LICENSES</p>
+    </div>
+  </div>
+</div>
+</div> 
+
+<!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+      crossorigin="anonymous"></script> 
+</body>
+</html>
