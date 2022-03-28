@@ -11,6 +11,13 @@
   rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
   crossorigin="anonymous" /> 
 
+  <!--Fontawesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"; href="style.css" />
+
 
   <title> Insure Landing Page</title>
 
@@ -19,96 +26,71 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style> -->
-  <link rel="stylesheet"; href="style.css" />
 
 </head>
 <body>
- 
- <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top Nav" >
-    <div class="container-fluid ">
-      <a class="navbar-brand" href="#"><img src="./images/logo.svg" class="nav__logo"/></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <div class="nav__bg">
-        <ul class="navbar-nav ms-auto mb-2  nav-items  ">
-          <li class="nav-item">
-            <a class="nav-link active " aria-current="page" href="#"><span class="Nav__item">How we work</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="Nav__item">Blog</span></a> 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="Nav__item">Account</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><button class="nav__view__plans__btn">VIEW PLANS</button></a>
-          </li>
+        <nav class="sticky-top">
+         
+          <div class="logo__container">
+            <img src="./images/logo.svg" alt="logo" class="img">
+        </div>
+          <input type="checkbox" id="click">
+          <label for="click" class="menu__btn">
+              <i class="fa-solid fa-bars"></i>
+         </label>
+         <ul>
+              <li><a href="#">How we work</a></li>
+              <li><a href="#">blog</a></li>
+              <li><a href="#">support</a></li>
+              <li><a href="#"><button class="nav__view__plans__btn">view plans</button></a></li>
           </ul>
-        </div>
-          <div><img src="./images/bg-pattern-mobile-nav.svg" alt="mobile_nav" class="mobile__nav"></div>
-        </div>
-     </div>
-  </nav> 
+      </nav>
+  
 
+ <div class="hero__container">
+    <div class="hero__img__container">
+      <img src="./images/image-intro-mobile.jpg" alt="hero-img" class="hero__img">
+      
 
-  <div class="hero__container">
-    <div class="hero__img__container d-none d-sm-block d-md-none" >
-        <img src="./images/image-intro-mobile.jpg" alt="people" class="hero__img"/>
     </div>
-    <div class="hero__img__container d-sm-none d-md-block" >
-      <img src="./images/image-intro-desktop.jpg" alt="people" class="hero__img"/>
-  </div>
     <div class="hero__description">
-      <hr class="d-none d-sm-block d-md-none" style="width: 20%; color: hsl(0, 0%, 98%); margin:-25px 0px 30px 0px;">
+      <hr class="horizontal__line" style="color: hsl(0, 0%, 98%);">
       <h1>Humanizing<br> your insurance.</h1>
      <p> Get your life insurance coverage easier and faster. We blend our expertise 
         and technology to help you find the plan that’s right for you. Ensure you 
         and your loved ones are protected.</p>
       <button class="view__plans__btn ">VIEW PLANS</button>
     </div>
-    <div class="d-sm-none d-md-block">
-      <div >
-        <img src="./images/bg-pattern-intro-left-mobile.svg" alt="bgleftpattern" class="bg__left__pattern">
-      </div>
-      <div>
-        <img src="./images/bg-pattern-intro-right-mobile.svg" alt="bgrightpattern" class="bg__right__pattern">
-      </div>
-    </div>
-    <!-- <div class="d-sm-none d-md-block">
-      <div >
-        <img src="./images/bg-pattern-intro-left-desktop.svg" alt="leftpattern" class="bg__left__pattern">
-      </div>
-      <div>
-        <img src="./images/bg-pattern-intro-right-desktop.svg" alt="rightpattern" class="bg__right__pattern">
-      </div>
-  </div> -->
-  </div> 
+  
+</div> 
+ <!--<div class="desk__right__pattern"></div>
+ <img src="./images/bg-pattern-intro-right-desktop.svg" alt="desk__right__pattern" 
+ id="desk__right__pattern"/>-->
 
-  <hr style="width: 40%; margin:35% 30% 10% 30%; color: hsl(256, 26%, 20%);">
+  <hr class="w-25 mx-auto mt">
 
   <div class="main__container">
+    <hr class="desktop__hr">
     <p class="heading">We’re different</p>
     <div class="container">
       <div class="col">
         <div class="row">
-          <img src="./images/icon-snappy-process.svg" alt="snappy_process" class="img">
+          <img src="./images/icon-snappy-process.svg" alt="snappy_process" class="image">
           <p class="img__desc"> Snappy Process</p>
           <p class="more__info"> Our application process can be completed in minutes, not hours. Don’t get 
             stuck filling in tedious forms.</p>
         </div>
        
         <div class="row">
-          <img src="./images/icon-affordable-prices.svg" alt="snappy_process" class="img">
+          <img src="./images/icon-affordable-prices.svg" alt="snappy_process" class="image">
           <p class="img__desc"> Affordable Prices</p>
           <p class="more__info"> We don’t want you worrying about high monthly costs. Our prices may be low, 
             but we still offer the best coverage possible.
           </p>
         </div>
 
-        <div class="row">
-          <img src="./images/icon-snappy-process.svg" alt="snappy_process" class="img">
+        <div class="row ">
+          <img src="./images/icon-snappy-process.svg" alt="snappy_process" class="image" >
           <p class="img__desc"> People First</p>
           <p class="more__info">  Our plans aren’t full of conditions and clauses to prevent payouts. We make 
             sure you’re covered when you need it.
@@ -116,16 +98,16 @@
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="find__out">
-    <p class="find__out__desc"> Find out more about how we work    </p>
-    <button class="how__we__work__btn">HOW WE WORK</button>
-    <div>
-      <img src="./images/bg-pattern-how-we-work-mobile.svg" alt="how_we_work" class="how__we__work__pattern">
+    <div class="find__out">
+      <p class="find__out__desc"> Find out more about how we work    </p>
+      <button class="how__we__work__btn">HOW WE WORK</button>
     </div>
+  
+   
   </div>
 
+  
 <div class="footer__start">
     <div class="footer__logo__container">
      <div class="footer__logo">
@@ -137,12 +119,9 @@
       <img src="./images/icon-pinterest.svg" alt="pinterest" class="social__logo">
       <img src="./images/icon-instagram.svg" alt="instagram">
     </div>
-    <div>
-      <img src="./images/bg-pattern-footer-mobile.svg" alt="footer_pattern" class="footer__pattern">
-    </div>
   </div>
 
-  <hr style="width: 80%; margin: 10% 10%; color: hsl(273, 4%, 51%);">
+  <hr class="w-100 mx-auto">
 
   <div class="footer__end">
   <div class="footer__desc__container">
