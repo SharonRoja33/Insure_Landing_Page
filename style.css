@@ -24,7 +24,6 @@ nav{
     align-items: center;
     padding: 0px 20px;
     position: sticky;
-
 }
 
 nav ul{
@@ -93,191 +92,246 @@ nav  ul{
 #click:checked ~ ul{
     left: 0;
 }
-    .hero__container{
-        width: 100%;
-        height: 800px;
-        background-color: hsl(256, 26%, 20%);
-
-    }
-   .hero__img__container{
-        width: 100%;
-        height: 400px;
-    }
-    .hero__img{
-        width: 100%;
-        height: 400px;
-    }
-    .hero__description{
-        padding: 80px 20px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        gap: 5;
-        background: url(./images/bg-pattern-intro-left-mobile.svg) left top no-repeat, 
-                    url(./images/bg-pattern-intro-right-mobile.svg) right bottom no-repeat;
-    }
-    .horizontal__line{
-        display: none;
-    }
-    .mt{
-        margin-top: 100px;
-    }
-    h1{
-        color: white;
-        font-family: DM Serif Display;
-        font-weight: bold;
-        font-size: 40px;
-        
-    }
-    p{
-        color: hsl(0, 0%, 98%);
-    }
-    .view__plans__btn{
+.hero__container{
+   height: 700px;
+   background-color: hsl(256, 26%, 20%);
+}
+.hero__img__container{
+   height: 400px;
+}
+.hero__img{
+    width: 100%;
+    height: 400px;
+}
+.hero__description{
+    padding: 10px 20px;
+}
+.mt{
+    margin-top: 100px;
+}
+h1{
+    color: white;
+    font-family: DM Serif Display;
+    font-size: 40px;
+}
+p{
+    color: hsl(0, 0%, 98%);
+    font-size: 15px;
+}
+    .view__btn{
         border: 1px solid hsl(0, 0%, 98%);
-        background-color: hsl(256, 26%, 20%);
-        color: hsl(0, 0%, 98%);
-        margin: 0% 20%;
-        padding: 4px 28px;
+        background-color: hsl(256, 26%, 20%) !important;
+        color: hsl(0, 0%, 98%) !important;
+        margin: 0% 10%;
+        padding: 4px 36px;
         font-size: 12px;
         font-weight: bold;
     }
-    .view__plans__btn:hover{
-        background-color: hsl(0, 0%, 98%);
-        color:hsl(256, 26%, 20%);
-    }
-    .main__container{
-        margin: 0px 5opx;
-        align-items: center;
-    }
-    .desktop__hr{
-        display: none;
+    .view__btn:hover{
+        background-color: hsl(0, 0%, 98%) !important;
+        color:hsl(256, 26%, 20%) !important;
+        cursor: pointer !important;
     }
     .heading{
         font-family: karla;
         color: hsl(256, 26%, 20%);
         font-size: 10vw;
-        font-weight: 700;
-        text-align: center;
+        margin: 50px 0px 80px 0px;
     }
-    .col{
-        display: flex;
-        flex-direction: column;
-    }
-    .row{
-        margin-top: 60px;
-        display: flex;
-        flex-direction: column;
-        gap: 5;
-        align-items: center;
-        text-align: center;
-    }
-    .image{
-        width: 120px;
-        height: 100px;
-    }
+    
     .img__desc{
         font-family:serif;
         color: hsl(270, 9%, 17%);
-        font-size: 30px;
-        font-weight: bolder;
-        margin-top: 5%;
+        font-size: 25px;
     }
     .more__info{
         color: hsl(273, 4%, 51%);
+        font-size: 14px;
     }
     .find__out{
-        width: 80%;
-        height: 350px;
-        padding: 80px 0px;
+        margin: 80px 0px;
+        height: 300px;
         background-color: hsl(256, 26%, 20%);
-        display: flex;
-        margin: 20% 10%;
-        flex-direction: column;
-        gap: 5;
-        align-items: center;
-        text-align: center;
+        padding: 40px 60px;
         background-image: url('./images/bg-pattern-how-we-work-mobile.svg');
         background-repeat: no-repeat;
         background-position: top right;
     }
     .find__out__desc{
         font-family: karla;
-        font-weight: bolder;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         line-height: 1;
+
     }
     .how__we__work__btn{
         border: 1px solid hsl(0, 0%, 98%);
         background-color: hsl(256, 26%, 20%);
         color: hsl(0, 0%, 98%);
-        padding: 4px 28px; 
+        padding: 4px 20px; 
         font-size: 14px;
+        width: 80%;
         font-weight: 500;
-        margin-top: 5%;
+        margin-top: 15px;
     }
     .how__we__work__btn:hover{
         background-color: hsl(0, 0%, 98%);
         color:hsl(256, 26%, 20%);
     }
-    .footer__start{
+    .footer{
+        margin-top: 100px;
         background-color: hsl(0, 0%, 98%);
         width: 100%;
-        height: 1000px;
+        height: 950px;
     }
-    .footer__logo__container{
+    .footer__start{
         width: 100%;
         height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 80px 5px;
         background-image: url('./images/bg-pattern-footer-mobile.svg');
         background-repeat: no-repeat;
         background-size: 100%;
     }
-    .footer__social__logos{
-        display: flex;
-        margin-top: 30px;
+    .footer__logo{
+        margin-top: 50px;
     }
-    .social__logo{
-        margin-right: 12px;
-    }
-    .footer__desc__container{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
+    
     .footer__desc__heading{
         color: hsl(273, 4%, 51%);
         font-weight: 500;
-        font-size: 15px; 
-        margin-top: 40px;
+        font-size: 12px; 
     }
-    .footer__desc{
-        /*display: flex; 
-        flex-direction: column;*/
-        margin-top: 5px;
-        gap: 3;
-    }
+   
     .info{
         color: hsl(256, 26%, 20%);
         font-size: 10px; 
         font-weight: 500;
     } 
-    
 
-@media (min-width:992px){
+@media(min-width:768px){
+    .hero__container{
+        height: 400px;
+    }
+    .right__pattern__container{
+        width: 350px;
+        height: 200px;
+    }
+    .right__pattern{
+        width: 100%;
+        height: 100%;
+       /* margin: -20px 0px 0px 50px;*/
+        overflow: hidden;
+    }
+    .left__pattern__container{
+        width: 200px;
+        height: 200px;
+    }
+    .left__pattern{
+        width: 100%;
+        height: 100%;
+        margin-top: 250px;
+
+    }
+    .hero__description{
+        width: 850px;
+        background: none;
+        padding: 0;
+    }
+    .horizontal__line{
+        color: hsl(0, 0%, 98%);
+        margin-top: 50px;
+    }
+    .hero__img__container{
+        width: 800px;
+        height: 400px;
+    }
+    .hero__img{
+        width: 100%;
+        height: 100%;
+        margin: 80px 0px 0px 30px;
+    }
+    .view__btn{
+        margin: 0;
+        padding: 4px 36px;
+        width: 60%;
+        color: hsl(0, 0%, 98%);
+        background-color: hsl(256, 26%, 20%);
+    }
+    .view__btn:hover{
+        background-color: hsl(0, 0%, 98%) !important;
+        color: hsl(256, 26%, 20%) !important;
+        cursor:  pointer !important ;
+    }
+    .heading
+    {
+        font-size: 50px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .img__desc{
+        font-size: 15px;
+    }
+    .more__info{
+        font-size: 10px;
+    }
+    .find__out{
+        height: 200px;
+        width: 80%;
+        padding: 40px 10px;
+       
+    }
+    .find__out__desc{
+        font-size: 3rem;
+        width: 60%;
+    }
+    .how__we__work__btn{
+        width: 150px;
+        height: 30px;
+        margin-top: 50px;
+        background-color: hsl(256, 26%, 20%) !important;
+        color: hsl(0, 0%, 98%) !important;
+    }
+   .how__we__work__btn:hover{
+        background-color: hsl(0, 0%, 98%) !important;
+        color:hsl(256, 26%, 20%) !important;
+        cursor:  pointer !important;
+   }
+   .footer{
+        background-color: hsl(0, 0%, 98%);
+        width: 100%;
+        height: 350px;
+        padding: 10px 150px;
+        background-image: url('./images/bg-pattern-footer-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: top left;
+    }
+    .footer__start{
+        height: 100px;
+        background: none;
+    }
+    .footer__logo{
+         margin-top: -10px;
+    }
+    .footer__desc__heading{
+        font-weight: 500;
+        font-size: 12px; 
+    }
+    .info{
+        font-size: 10px; 
+        font-weight: 400;
+    } 
+}
+@media (min-width:992px)
+{
     nav{
         width: 100%;
         height: 55px;
-        padding: 0px 100px;
+        padding: 0px 80px;
     }
     nav ul{
         left: -0;
         top: -25px;
-        margin-left: 200px;
+        margin-left: 250px;
         background:none;
-
     }
     nav ul li{
         display: inline-block;
@@ -311,174 +365,41 @@ nav  ul{
     }
     .hero__container{
         height: 400px;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-around;
-        position: relative;
-        padding: 10px 100px;
-    }
-   .hero__img__container{
-       position: relative;
-        width: 40%;
-        height: 400px;
-
-    }
-    .hero__img{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        margin-top: 60px;
     }
     .hero__description{
-        width: 50%;
-        text-align: left;
         background: none;
-        padding: 0;
     }
-   /* #desk__left__pattern{
-        background-image: url(./images/bg-pattern-intro-left-desktop.svg);
-        position: absolute; 
-        background-position: left bottom;
-
-    }
-    #desk__right__pattern{
-         position: absolute;
-         height: 200px;
-         width: 400px;
-         float: right;
-         object-position: right top;
-    }*/
-
     .horizontal__line{
-        display: block;
-        width: 100px;
-        margin-top: 50px;
-    }
-    .view__plans__btn{
-        margin: 0;
-        padding: 4px 28px;
-        width: 40%;
         color: hsl(0, 0%, 98%);
+        margin-top: 60px;
     }
-    .view__plans__btn:hover{
-        background-color: hsl(0, 0%, 98%);
+    .view__btn{
+        width: 40%;
     }
-    .main__container{
-        margin: 0px 40px;
-        align-items: left;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
+    .hero__img__container{
+        width: 600px;
     }
-    .desktop__hr{
-        display: block;
-        width: 100px;
-        margin-top: 100px;
-    }
-    .mt{
-        display: none;
-    }
-    .heading{
-        font-size: 4vw;
-        font-weight: 700;
-        margin-top: 40px;
-        text-align: left;
-    }
-    .container{
-        margin: 20px 40px;
-    }
-    .col{
-        display: flex;
-        flex-direction: row;
-        margin: 0px 40px;
-    }
-    .row{
-        align-items: left;
-        text-align: left;
-        margin-right: 5px;
-    }
-    
-    .image{
-        width: 80px;
-        height: 60px;
+    .hero__img{
+        width: 100%;
     }
     .img__desc{
-        font-size: 22px;
-        
+        font-size: 20px;
     }
     .more__info{
         font-size: 13px;
     }
     .find__out{
-        height: 200px;
-        width: 85%;
-        padding: 20px 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 10% 5%;
-       
-    }
-    .find__out__desc{
-        font-size: 3rem;
-        width: 60%;
+        padding: 40px 20px;
     }
     .how__we__work__btn{
-        margin-top: -10px;
+        padding: 2px 8px;
+        width: 200px;
+        height: 30px;
     }
    .how__we__work__btn:hover{
-    background-color: white;
-    color:hsl(256, 26%, 20%);
+        background-color: white;
+        color:hsl(256, 26%, 20%);
    }
-    .footer__start{
-        height: 300px;
-        padding: 20px 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        background-image: url('./images/bg-pattern-footer-desktop.svg');
-        background-repeat: no-repeat;
-        background-size: 40%;
-    }
-    .footer__logo__container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 5px 0px;
-        background: none;
-    }
-    .footer__social__logos{
-        display: flex;
-        margin-top: 20px;
-    }
-   
-    .footer__end{
-        display: flex;
-        justify-content: space-between;
-
-    }
-    .footer__desc__container{
-        display: flex;
-    }
-    .footer__desc__heading{
-        font-weight: 500;
-        font-size: 12px; 
-        margin-top: 10px;
-        text-align: left;
-    }
-    .footer__desc{
-        display: flex; 
-        flex-direction: column;
-        text-align: left;
-       
-    }
-    .info{
-        font-size: 10px; 
-        font-weight: 400;
-    } 
-
-   
-
 }
 
 
@@ -488,41 +409,16 @@ nav  ul{
     }
     nav ul{
         top: -30px;
+        margin-left: 300px;
     }
     nav ul li a{
         font-size: 14px;
     }
     .hero__container{
-        height: 450px;
-        padding: 10px 150px;
-    }
-   .hero__img__container{
-        width: 40%;
-        height: 450px;
-    }
-    .hero__img{
-        height: 450px;
-        margin-top: 20%;
-    }
-    .hero__description{
-        width: 55%;
-    }
-    #desk__left__pattern{
-        background-image: url(./images/bg-pattern-intro-left-desktop.svg);
-        position: absolute; 
-        background-position: left bottom;
-        background-repeat: no-repeat;
-
-    }
-    .desk__right__pattern{
-        background-image: url(./images/bg-pattern-intro-right-desktop.svg);
-         position: absolute;
-         background-position: right top;
-         background-repeat:  no-repeat;
-         z-index: 3;
+        height: 400px;
     }
     .horizontal__line{
-        width: 120px;
+        margin-top: 30px;
     }
     h1{
         font-size: 60px;
@@ -530,38 +426,6 @@ nav  ul{
     p{
         font-size: 1.2vw;
     }
-    .main__container{
-        margin: 0px 100px;
-    }
-    .desktop__hr{
-        margin-top: 150px;
-    }
-    .heading{
-        font-size: 4.5vw;
-    }
-    .col{
-        margin: 0px 50px;
-    }
-    .img__desc{
-        font-size: 24px;
-    }
-    .more__info{
-        font-size: 15px;
-    }
-    .find__out{
-        margin: 10% 2%;       
-    }
-    .footer__start{
-        height: 330px;
-    }
-    .footer__desc__heading{
-        font-size: 14px; 
-    }
-    .info{
-        font-size: 12px; 
-        font-weight: 400;
-    } 
-
 }
    
 
