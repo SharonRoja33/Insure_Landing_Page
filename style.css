@@ -211,8 +211,8 @@ p{
         height: 400px;
     }
     .right__pattern__container{
-        width: 350px;
-        height: 200px;
+        width: 450px;
+        height: 250px;
     }
     .right__pattern{
         width: 100%;
@@ -221,8 +221,8 @@ p{
         overflow: hidden;
     }
     .left__pattern__container{
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 270px;
     }
     .left__pattern{
         width: 100%;
@@ -231,7 +231,7 @@ p{
 
     }
     .hero__description{
-        width: 850px;
+        width: 980px;
         background: none;
         padding: 0;
     }
